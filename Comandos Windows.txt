@@ -1,0 +1,6 @@
+
+Comando para saber cuanta memoria soporta tu dispositivo:
+wmic memphysical get MaxCapacity, MemoryDevices
+
+Comando para saber cuanta memoria y de que marca y capacidad se tiene en el dispositivo
+wmic MemoryChip get BankLabel, Capacity, MemoryType, TypeDetail, Speed, Manufacturer
